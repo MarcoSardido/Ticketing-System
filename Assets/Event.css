@@ -1,0 +1,78 @@
+.container
+{
+    position: relative;
+    top: 100px;
+    width: 163vh;
+    height: 540px;
+    transition: 0.5s;
+    box-shadow: 0 0 30px -15px;
+    border-radius: 5px;
+}
+
+.sec
+{
+    display: inline-block;
+    margin: 10px;
+    margin-right: -10px;
+    margin-bottom:-10px;
+}
+
+.sec h4{
+    margin: 0;
+    margin-left: 5px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900px;
+}
+
+.sec .btn-print{
+    padding: 5px;
+    width: 60px;
+    background: #22242A;
+    border-style: none;
+    text-decoration: none;
+    margin-top: -30px;
+    margin-right: 40px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 750px;
+}
+
+.btn-add
+{
+    background-color: #19B3D3;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+img{
+    width:30px;
+}
+
+.btn-warning
+{
+    background-color: rgb(255, 145, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-pay
+{
+    background-color: darkslategray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-danger
+{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
